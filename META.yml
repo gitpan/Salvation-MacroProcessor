@@ -1,0 +1,79 @@
+---
+abstract: 'MacroProcessor itself'
+author:
+  - 'Gennadiy Filatov <kain.winterheart@gmail.com>'
+build_requires: {}
+configure_requires:
+  Module::Build: 0.36
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Salvation-MacroProcessor
+provides:
+  Salvation::MacroProcessor:
+    file: lib/Salvation/MacroProcessor.pm
+    version: 0.9
+  Salvation::MacroProcessor::Connector:
+    file: lib/Salvation/MacroProcessor/Connector.pm
+    version: 0
+  Salvation::MacroProcessor::Field:
+    file: lib/Salvation/MacroProcessor/Field.pm
+    version: 0
+  Salvation::MacroProcessor::ForRoles:
+    file: lib/Salvation/MacroProcessor/ForRoles.pm
+    version: 0
+  Salvation::MacroProcessor::Hooks:
+    file: lib/Salvation/MacroProcessor/Hooks.pm
+    version: 0
+  Salvation::MacroProcessor::Iterator:
+    file: lib/Salvation/MacroProcessor/Iterator.pm
+    version: 0
+  Salvation::MacroProcessor::Iterator::Compliance:
+    file: lib/Salvation/MacroProcessor/Iterator/Compliance.pm
+    version: 0
+  Salvation::MacroProcessor::Meta::Role:
+    file: lib/Salvation/MacroProcessor/Meta/Role.pm
+    version: 0
+  Salvation::MacroProcessor::MethodDescription:
+    file: lib/Salvation/MacroProcessor/MethodDescription.pm
+    version: 0
+  Salvation::MacroProcessor::Role:
+    file: lib/Salvation/MacroProcessor/Role.pm
+    version: 0
+  Salvation::MacroProcessor::Spec:
+    file: lib/Salvation/MacroProcessor/Spec.pm
+    version: 0
+requires:
+  B::Hooks::EndOfScope: 0.11
+  Carp::Assert: 0.20
+  Class::Load: 0.13
+  Class::Load::XS: 0.03
+  Data::OptList: 0.107
+  Devel::GlobalDestruction: 0.04
+  Eval::Closure: 0.08
+  List::MoreUtils: 0.33
+  MRO::Compat: 0.11
+  Module::Runtime: 0.013
+  Moose: 2.0402
+  MooseX::StrictConstructor: 0.19
+  Package::DeprecationManager: 0.11
+  Package::Stash: 0.33
+  Package::Stash::XS: 0.25
+  Params::Util: 1.04
+  Sub::Exporter: 0.982
+  Sub::Install: 0.925
+  Sub::Name: 0.05
+  Try::Tiny: 0.11
+  Variable::Magic: 0.48
+  namespace::autoclean: 0.13
+  namespace::clean: 0.23
+  perl: 0
+  version: 0.88
+resources:
+  bugtracker: https://github.com/kainwinterheart/salvation-macroprocessor/issues
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/kainwinterheart/salvation-macroprocessor.git
+version: 0.9
